@@ -129,12 +129,14 @@ body {
 
   /* Animation when hover 1 */
   .Navbar .Navbar-nav a::after {
+    /* Place navbar on left side */
     /* Angle X and Y both 0 */
     transform-origin: 0 0;
   }
 
   /* Animation when hover 2 */
   .Navbar .Navbar-nav a:hover::after {
+    /* Decrease animation size */
     transform: scaleX(0.2);
   }
 }
