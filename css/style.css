@@ -84,8 +84,21 @@ body {
   display: none;
 }
 
-/* Media Queries */
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  /* Use flex to make whole content in center vertical of hero */
+  display: flex;
+  /* If vertical align-items. If horizontal justify-content */
+  align-items: center;
+  background-image: url("../img/img1.jpg");
+  background-repeat: no-repeat;
+  /* Make img size max */
+  background-size: cover;
+  background-position: center;
+}
 
+/* Media Queries */
 /* When Laptop Size Screen */
 @media (max-width: 1366px) {
   html {
