@@ -16,6 +16,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: white;
+  min-height: 2000px;
 }
 
 /* Navbar */
@@ -96,6 +97,20 @@ body {
   /* Make img size max */
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(1, 1, 3, 1) 3%,
+    rgba(255, 255, 255, 0) 25%
+  );
 }
 
 /* Media Queries */
